@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Post Mid Term Evaluation 23.11.2024 @1.30pm </title>
+    <style>
+       h1 {
+            /*text-align: center; /* Horizontally centers the text */
+             /* Adjusts position to truly center the element */
+        }
+        body {
+            
+           
+            align-items: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 150px);
+            gap: 10px;
+        }
+        .seat {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .seat.malpractice {
+            border: 2px solid red; /* Only border is red */
+        }
+        .seat .coordinate {
+            font-weight: bold;
+            display: block;
+        }
+        .seat .marks.negative {
+            color: red;
+        }
+        .seat .marks.positive {
+            color: green;
+        }
+        .seat .late {
+            font-size: 12px;
+            color: orange;
+        }
+        .seat .not-registered {
+            color: red; /* Not registered text in red */
+        }
+        .seat .results-on-hold {
+            color: red;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .empty {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Post Mid Term Evaluation 23.11.2024 @1.30pm </h1>
+    <div class="grid" id="seatingGrid"></div>
+
+    <script>
+        // Seating arrangement
+        const seatingArrangement = [
+            ["L113", "L112", "L111", "R111", "R112", "R113"],
+            ["L103", "L102", "L101", "R101", "R102", "R103"],
+            ["L93", "L92", "L91", "R91", "R92", "R93"],
+            ["L83", "L82", "L81", "R81", "R82", "R83"],
+            ["L73", "L72", "L71", "R71", "R72", "R73"],
+            ["L63", "L62", "L61", "R61", "R62", "R63"],
+            ["L53", "L52", "L51", "R51", "R52", "R53"],
+            ["L43", "L42", "L41", "R41", "R42", "R43"],
+            ["L33", "L32", "L31", "R31", "R32", "R33"],
+            ["L23", "L22", "L21", "R21", "R22", "R23"],
+            ["L13", "L12", "L11", "R11", "R12", "R13"],
+        ];
+
+        // Function to render the grid
+        const renderGrid = (jsonData) => {
+            const gridContainer = document.getElementById("seatingGrid");
+
+            seatingArrangement.flat().forEach(coordinate => {
+                const seatData = jsonData.find(data => data.coordinate === coordinate);
+                const seatElement = document.createElement("div");
+                seatElement.classList.add("seat");
+
+                if (seatData) {
+                    // Apply malpractice class
+                    if (seatData.malpractice === "yes") {
+                        seatElement.classList.add("malpractice");
+                        seatElement.innerHTML = `
+                            <span class="results-on-hold">Results on hold</span><br>
+                            <span class="coordinate">${seatData.coordinate}</span>
+                            <span>${seatData.index_no}</span><br>
+                            <span>Paper No: ${seatData.paper_no}</span><br>
+                            <span class="marks ${seatData.marks < 0 ? 'negative' : (seatData.marks === 10 ? 'positive' : '')}">
+                                Marks: ${seatData.marks}
+                            </span><br>
+                            ${seatData.late === "Late" ? '<span class="late">Late Submission</span><br>' : ''}
+                            <span class="${seatData.register === "yes" ? "" : "not-registered"}">
+                                ${seatData.register === "yes" ? "Registered" : "Not Registered"}
+                            </span>
+                        `;
+                    } else {
+                        seatElement.innerHTML = `
+                            <span class="coordinate">${seatData.coordinate}</span>
+                            <span>${seatData.index_no}</span><br>
+                            <span>Paper No: ${seatData.paper_no}</span><br>
+                            <span class="marks ${seatData.marks < 0 ? 'negative' : (seatData.marks === 10 ? 'positive' : '')}">
+                                Marks: ${seatData.marks}
+                            </span><br>
+                            ${seatData.late === "Late" ? '<span class="late">Late Submission</span><br>' : ''}
+                            <span class="${seatData.register === "yes" ? "" : "not-registered"}">
+                                ${seatData.register === "yes" ? "Registered" : "Not Registered"}
+                            </span>
+                        `;
+                    }
+                } else {
+                    seatElement.classList.add("empty");
+                    seatElement.textContent = "";
+                }
+
+                gridContainer.appendChild(seatElement);
+            });
+        };
+
+        // Fetch external JSON file
+        fetch('students.json')
+            .then(response => response.json())
+            .then(data => {
+                renderGrid(data);
+            })
+            .catch(error => console.error('Error loading JSON file:', error));
+    </script>
+</body>
+</html>

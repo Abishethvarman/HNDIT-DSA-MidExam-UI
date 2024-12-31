@@ -1,0 +1,416 @@
+[
+  {
+    "index_no": "BAT/IT/2022/P/02",
+    "coordinate": "R93",
+    "paper_no": 1,
+    "marks": 7.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/04",
+    "coordinate": "R23",
+    "paper_no": 2,
+    "marks": 1,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/06",
+    "coordinate": "L112",
+    "paper_no": 2,
+    "marks": 1,
+    "late": "Late",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/07",
+    "coordinate": "L22",
+    "paper_no": 2,
+    "marks": 10,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/08",
+    "coordinate": "R62",
+    "paper_no": 2,
+    "marks": 3.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/09",
+    "coordinate": "R43",
+    "paper_no": 1,
+    "marks": -0.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/10",
+    "coordinate": "L82",
+    "paper_no": 2,
+    "marks": 9,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/13",
+    "coordinate": "L63",
+    "paper_no": 2,
+    "marks": -2,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/16",
+    "coordinate": "R13",
+    "paper_no": 3,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/17",
+    "coordinate": "R42",
+    "paper_no": 3,
+    "marks": 0.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/18",
+    "coordinate": "L72",
+    "paper_no": 2,
+    "marks": 8,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/19",
+    "coordinate": "L83",
+    "paper_no": 1,
+    "marks": 6,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/20",
+    "coordinate": "R101",
+    "paper_no": 2,
+    "marks": 7.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/22",
+    "coordinate": "R33",
+    "paper_no": 3,
+    "marks": 10,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/23",
+    "coordinate": "R41",
+    "paper_no": 1,
+    "marks": -3,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/24",
+    "coordinate": "L71",
+    "paper_no": 3,
+    "marks": 4.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/25",
+    "coordinate": "R82",
+    "paper_no": 2,
+    "marks": 6.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "yes"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/26",
+    "coordinate": "R103",
+    "paper_no": 3,
+    "marks": 7.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/27",
+    "coordinate": "R73",
+    "paper_no": 3,
+    "marks": 3.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/28",
+    "coordinate": "L32",
+    "paper_no": 2,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/30",
+    "coordinate": "L102",
+    "paper_no": 3,
+    "marks": -6.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/31",
+    "coordinate": "L13",
+    "paper_no": 1,
+    "marks": -9.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/32",
+    "coordinate": "L101",
+    "paper_no": 3,
+    "marks": -6.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/33",
+    "coordinate": "L81",
+    "paper_no": 2,
+    "marks": 7.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/34",
+    "coordinate": "R12",
+    "paper_no": 2,
+    "marks": 10,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/35",
+    "coordinate": "R72",
+    "paper_no": 2,
+    "marks": 7,
+    "late": "na",
+    "register": "no",
+    "malpractice": "yes"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/37",
+    "coordinate": "L33",
+    "paper_no": 3,
+    "marks": 2.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/40",
+    "coordinate": "L92",
+    "paper_no": 3,
+    "marks": 5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/42",
+    "coordinate": "L103",
+    "paper_no": 1,
+    "marks": 7.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/47",
+    "coordinate": "R83",
+    "paper_no": 1,
+    "marks": 5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/49",
+    "coordinate": "L73",
+    "paper_no": 1,
+    "marks": -3.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/50",
+    "coordinate": "L93",
+    "paper_no": 1,
+    "marks": -4.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/51",
+    "coordinate": "L51",
+    "paper_no": 2,
+    "marks": 10,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/54",
+    "coordinate": "L62",
+    "paper_no": 1,
+    "marks": 5.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/55",
+    "coordinate": "R11",
+    "paper_no": 1,
+    "marks": 9.5,
+    "late": "Late",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/58",
+    "coordinate": "R92",
+    "paper_no": 3,
+    "marks": 6.5,
+    "late": "Late",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/59",
+    "coordinate": "L43",
+    "paper_no": 3,
+    "marks": 7.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/60",
+    "coordinate": "L53",
+    "paper_no": 3,
+    "marks": 7.5,
+    "late": "Late",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/61",
+    "coordinate": "R102",
+    "paper_no": 2,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/63",
+    "coordinate": "L23",
+    "paper_no": 1,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/64",
+    "coordinate": "R81",
+    "paper_no": 3,
+    "marks": -2.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/65",
+    "coordinate": "L52",
+    "paper_no": 2,
+    "marks": -10,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/66",
+    "coordinate": "L42",
+    "paper_no": 1,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/73",
+    "coordinate": "R52",
+    "paper_no": 1,
+    "marks": -6.5,
+    "late": "na",
+    "register": "no",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/73",
+    "coordinate": "R21",
+    "paper_no": 1,
+    "marks": 8.5,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  },
+  {
+    "index_no": "BAT/IT/2022/P/74",
+    "coordinate": "R22",
+    "paper_no": 3,
+    "marks": 9,
+    "late": "na",
+    "register": "yes",
+    "malpractice": "no"
+  }
+]
