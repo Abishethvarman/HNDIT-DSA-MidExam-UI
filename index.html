@@ -7,7 +7,7 @@
     <style>
        h1 {
             /*text-align: center; /* Horizontally centers the text */
-             /* Adjusts position to truly center the element */
+             
         }
         body {
             
@@ -47,6 +47,11 @@
         }
         .seat .results-on-hold {
             color: red;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .seat .results-excused {
+            color: rgb(191, 255, 0);
             font-size: 16px;
             font-weight: bold;
         }
@@ -101,7 +106,24 @@
                                 ${seatData.register === "yes" ? "Registered" : "Not Registered"}
                             </span>
                         `;
-                    } else {
+                    } else if 
+                    (seatData.malpractice === "excused") {
+                        seatElement.classList.add("malpractice");
+                        seatElement.innerHTML = `
+                            <span class="results-excused">Excused with warning</span><br>
+                            <span class="coordinate">${seatData.coordinate}</span>
+                            <span>${seatData.index_no}</span><br>
+                            <span>Paper No: ${seatData.paper_no}</span><br>
+                            <span class="marks ${seatData.marks < 0 ? 'negative' : (seatData.marks === 10 ? 'positive' : '')}">
+                                Marks: ${seatData.marks}
+                            </span><br>
+                            ${seatData.late === "Late" ? '<span class="late">Late Submission</span><br>' : ''}
+                            <span class="${seatData.register === "yes" ? "" : "not-registered"}">
+                                ${seatData.register === "yes" ? "Registered" : "Not Registered"}
+                            </span>
+                        `;
+                    }
+                    else {
                         seatElement.innerHTML = `
                             <span class="coordinate">${seatData.coordinate}</span>
                             <span>${seatData.index_no}</span><br>
